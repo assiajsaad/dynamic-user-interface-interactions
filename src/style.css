@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  grid-template: 0.3fr 3fr / 0.7fr 3fr;
+}
+
+.navbar {
+    grid-area: 1 / 1 / 2 / -1;
+    background-color: lightcoral;
+}
+
+.content {
+    grid-area: 2 / 1 / -1 / -1;
+    background-color: limegreen;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 0.5%;
+    /* min-width: max-content; */
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 5%;
+
+}
+
+a:hover {
+    background-color: lightgrey;
+}
+
+/* .dropdown:hover .dropdown-content {
+    display: block;
+} */
