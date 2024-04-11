@@ -32,6 +32,7 @@ body {
     background-color: white;
     padding: 0.5%;
     min-width: 100%;
+    z-index: 1;
 }
 
 a {
@@ -60,6 +61,7 @@ a:hover {
   
   .slideshow {
     width: 80%;
+    min-width: 800px;
     position: relative;
   }
   
@@ -101,4 +103,28 @@ a:hover {
   
   .active, .dot:hover {
       background-color: grey;
+  }
+
+  .bees {
+    background-image: url('./assets/images/bees.jpg');
+    background-size: cover; /* or 'contain' */
+    background-repeat: no-repeat;
+    /* Optional: Center the background image */
+    background-position: center;
+  }
+
+  .colors {
+    background-image: url('./assets/images/colors.jpg');
+    background-size: cover; /* or 'contain' */
+    background-repeat: no-repeat;
+    /* Optional: Center the background image */
+    background-position: center;
+  }
+
+  .dogs {
+    background-image: url('./assets/images/dogs.jpg');
+    background-size: cover; /* or 'contain' */
+    background-repeat: no-repeat;
+    /* Optional: Center the background image */
+    background-position: center;
   }
